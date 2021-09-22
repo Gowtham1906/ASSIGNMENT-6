@@ -1,0 +1,7 @@
+string=input("Enter the sentence:")
+count=0
+vowels=["a","e","i","o","u"]
+for char in string:
+    if char in vowels:
+        count=count+1 
+print("number of vowels in sentence:",count)        
