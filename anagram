@@ -1,5 +1,5 @@
-s1="listen"
-s2="silent"
+s1=input("Enter the first string:")
+s2=input("Enter the second string:")
 if (len(s1)==len(s2)):
     print("the two strings are anagram of each other")
 else:
