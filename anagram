@@ -1,0 +1,6 @@
+s1="listen"
+s2="silent"
+if (len(s1)==len(s2)):
+    print("the two strings are anagram of each other")
+else:
+    print("the two strings are not anagram of each other")
